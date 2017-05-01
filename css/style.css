@@ -127,3 +127,32 @@ textarea {
   font-size: 13px;
   color: #d9e1e8;
 }
+
+.toot-container{
+  background: #282c37;
+  overflow: auto;
+}
+
+.toot-container ul{
+  background: #444B5D;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.toot-container li{
+  border-bottom: 1px solid #FFFFFF;
+  padding: 15px;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.toot-container li .name_ID{
+  display: flex;
+  align-items: flex-start;
+}
+
+.toot-container ul li img{
+  margin-right: 10px;
+  border-radius: 5px;
